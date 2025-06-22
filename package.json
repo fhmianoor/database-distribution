@@ -1,0 +1,33 @@
+{
+  "name": "database-distribution",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/fhmianoor/database-distribution#readme",
+  "bugs": {
+    "url": "https://github.com/fhmianoor/database-distribution/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhmianoor/database-distribution.git"
+  },
+  "license": "ISC",
+  "author": "muhamad fahmi aulia noor",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node src/seed/seed.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.15.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.16.2",
+    "redis": "^5.5.6"
+  }
+}
