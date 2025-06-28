@@ -79,12 +79,12 @@ node src/index.js
 
 ## 🌐 API Endpoints
 **GET /api/products**
-🌐 API Endpoints
-GET /api/products
-**Returns full product list with:**
-**1. Basic info (from PostgreSQL)**
-**2. Metadata (from MongoDB)**
-**3. Stock (from Redis)**
+```bash
+Returns full product list with:
+1. Basic info (from PostgreSQL)
+2. Metadata (from MongoDB)
+3. Stock (from Redis)
+```
  ```json
 [
   {
