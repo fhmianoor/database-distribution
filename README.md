@@ -26,15 +26,18 @@ This project is a **small-scale distributed database system** that integrates mu
 ---
 
 ## 📂 Folder Structure
-**database-distribution/**
-**├── src/**
-**│ ├── db/ # Database configs (Postgres, Mongo, Redis)**
-**│ ├── routes/ # Express routes**
-**│ ├── seed/ # Seeder scripts**
-**│ └── index.js # Main server file**
-**├── .env # Environment variables**
-**├── docker-compose.yml # Docker setup**
-**└── README.md**
+
+```bash
+database-distribution/
+├── src/
+│   ├── db/              # Database configs (Postgres, Mongo, Redis)
+│   ├── routes/          # Express routes
+│   ├── seed/            # Seeder scripts
+│   └── index.js         # Main server file
+├── .env                 # Environment variables
+├── docker-compose.yml   # Docker setup
+└── README.md
+```
 
 ## 🚀 Getting Started
 
