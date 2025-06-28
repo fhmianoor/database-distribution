@@ -1,4 +1,4 @@
-# 🛒 Distributed E-Commerce System with PostgreSQL, MongoDB, and Redis
+ # 🛒 Distributed E-Commerce System with PostgreSQL, MongoDB, and Redis
 
 This project is a **small-scale distributed database system** that integrates multiple database technologies to handle structured, semi-structured, and fast-access data. Built using **Node.js (Express)** and **Docker**, the system simulates an e-commerce backend with products, metadata, and stock info.
 
@@ -45,8 +45,7 @@ database-distribution/
 
 ```bash
 git clone https://github.com/fhmianoor/database-distribution.git
-cd distributed-ecommerce
-cp .env.example .env
+cd database-distribution
 ```
 
 ### 2. Run with Docker
@@ -69,6 +68,12 @@ npm install
 
 ```bash
 node src/seed/seed.js
+```
+
+### 5. Run Server
+
+```bash
+node src/index.js
 ```
 
 
